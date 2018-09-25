@@ -1,4 +1,5 @@
 title: iris.ch
+subtitle: La plus badass des russes portugaises du design valaisan
 description: Site web d'Iris T.
 author:
     name: Studio ANDco Sàrl
@@ -32,12 +33,20 @@ facebook:
 google_site_verification: googleddcee30cf477c8ba
 ga: Google Analytics ID
 
-baseurl: ""
-url: "https://iris.ch.ch"
+baseurl: "iris.ch"
+url: "https://studioandco.github.io"
 
-exclude:
+collections:
+    projects:
+        output: true
+        permalink: /projects/:title
 
 defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
   - scope:
       path: ""
     values:

@@ -41,12 +41,15 @@
     </header>
 
     <nav>
-        <ul>
-            <li><a href="{{ '/' | absolute_url }}">Homepage</a></li>
+        <ul class="list-inline">
+            <li><a href="{{ '/' | absolute_url }}">Pictures</a></li>
+            <li><a href="{{ '/about' | absolute_url }}">About</a></li>
         </ul>
     </nav>
 
-    {{ content }}
+    <div class="container">
+        {{ content }}
+    </div>
 
     <footer>
         <address>
