@@ -1,6 +1,6 @@
 ---
 title: Filme von Frauen
-thumbnail: https://via.placeholder.com/150x400
+thumbnail: https://via.placeholder.com/350x400
 order: 1
 ---
 

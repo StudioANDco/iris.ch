@@ -1,6 +1,6 @@
 ---
 title: bühnen Brig
-thumbnail: https://via.placeholder.com/150x400
+thumbnail: https://via.placeholder.com/150x200
 order: 1
 ---
 

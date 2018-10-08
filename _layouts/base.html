@@ -36,30 +36,30 @@
         }
     </script>
 
-    <header>
-        <h1>{{ page.title }}</h1>
-    </header>
-
-    <nav>
-        <ul class="list-inline">
-            <li><a href="{{ '/' | absolute_url }}">Pictures</a></li>
-            <li><a href="{{ '/about' | absolute_url }}">About</a></li>
-        </ul>
-    </nav>
-
     <div class="container">
-        {{ content }}
-    </div>
+        <header>
+            <h1>{{ page.title }}</h1>
+        </header>
 
-    <footer>
-        <address>
-            {{ site.title }}<br>
-            {{ site.street }}<br>
-            {{ site.zip }} {{ site.city }}<br>
-            {{ site.state }} - {{ site.country }}<br>
-            <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-        </address>
-    </footer>
+        <nav class="clearfix mrgb++">
+            <ul class="list-inline pull-right">
+                <li><a href="{{ '/' | absolute_url }}">Pictures</a></li>
+                <li><a href="{{ '/about' | absolute_url }}">About</a></li>
+            </ul>
+        </nav>
+
+        {{ content }}
+
+        <footer>
+            <address>
+                {{ site.title }}<br>
+                {{ site.street }}<br>
+                {{ site.zip }} {{ site.city }}<br>
+                {{ site.state }} - {{ site.country }}<br>
+                <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+            </address>
+        </footer>
+    </div>
 
     <script type="text/javascript" src="{{ '/javascripts/main.js' | absolute_url }}?{{site.time | date: '%s%N'}}"></script>
     <script type="text/javascript">

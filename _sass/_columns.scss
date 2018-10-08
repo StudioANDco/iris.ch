@@ -1,0 +1,14 @@
+.columns {
+    columns: 150px 6;
+    column-fill: balance;
+    column-gap: 1em;
+    column-span: all;
+
+    > * {
+        margin-bottom: 1em;
+    }
+
+    img {
+        width: 100%;
+    }
+}
