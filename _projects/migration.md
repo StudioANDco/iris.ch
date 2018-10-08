@@ -1,6 +1,6 @@
 ---
 title: Migration
-thumbnail: https://via.placeholder.com/200x200
+thumbnail: https://via.placeholder.com/350x400
 order: 1
 ---
 

@@ -1,0 +1,22 @@
+---
+label: Projects
+hide_body: false
+is_partial: false
+fields:
+- type: number
+  label: Order
+  name: order
+  description: Ordre sur la page d'accueil
+  config:
+    step: '1'
+    min: '0'
+    required: true
+- type: file
+  name: thumbnail
+  label: Thumbnail
+  description: Image affichée sur la page d'accueil
+- type: image_gallery
+  label: Images
+  name: images
+  description: Images affichées après le texte
+
