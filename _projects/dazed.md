@@ -3,7 +3,7 @@ title: Dazed magazine
 thumbnail: https://via.placeholder.com/150x400
 order: 1
 images:
-- "/iris.ch/uploads/02_2-3_dazed_mock.jpg"
+- "/iris.ch/uploads/03_2-3_dazed_mock.jpg"
 published: false
 
 ---
