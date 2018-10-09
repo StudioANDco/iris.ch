@@ -2,6 +2,7 @@
 title: Migration
 thumbnail: ''
 images:
+- "/iris.ch/uploads/02_1_dazed_mock.jpg"
 - https://via.placeholder.com/800x400
 - https://via.placeholder.com/390x400
 - https://via.placeholder.com/390x400
