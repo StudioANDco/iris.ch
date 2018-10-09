@@ -28,4 +28,5 @@ fields:
     schema:
       format: markdown
 pages:
+- _sass/test.md
 - _projects/migration.md
