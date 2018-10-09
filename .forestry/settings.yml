@@ -5,11 +5,6 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: _sass
-  label: CSS
-  create: all
-  match: "**/*"
-- type: directory
   path: _projects
   label: Projects
   create: all
