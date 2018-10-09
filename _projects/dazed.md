@@ -1,6 +1,6 @@
 ---
 title: Dazed magazine
-thumbnail: ''
+thumbnail: "/iris.ch/uploads/07-2_dazed_first.jpg"
 order: 1
 images: []
 
