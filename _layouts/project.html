@@ -7,6 +7,14 @@ layout: base
     {{ content }}
 </div>
 
+<div class="gallery mrgb">
+    {% for image in page.images %}
+    <div>
+        <img class="img-responsive" src="{{ image }}">
+    </div>
+    {% endfor %}
+</div>
+
 <div>
     <a href="{{ '/' | absolute_url }}">Back to list</a>
 </div>

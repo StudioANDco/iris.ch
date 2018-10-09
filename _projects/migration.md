@@ -1,6 +1,11 @@
 ---
 title: Migration
 thumbnail: https://via.placeholder.com/350x400
+images: [
+    "https://via.placeholder.com/800x400",
+    "https://via.placeholder.com/390x400", "https://via.placeholder.com/390x400",
+    "https://via.placeholder.com/200x150", "https://via.placeholder.com/200x150", "https://via.placeholder.com/200x150"
+]
 order: 1
 ---
 
