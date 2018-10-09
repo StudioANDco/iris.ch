@@ -1,8 +1,7 @@
 ---
 title: Migration
-thumbnail: "/uploads/G0A43079_4.jpg"
+thumbnail: ''
 images:
-- "/uploads/G0A43079_12.jpg"
 - https://via.placeholder.com/800x400
 - https://via.placeholder.com/390x400
 - https://via.placeholder.com/390x400
