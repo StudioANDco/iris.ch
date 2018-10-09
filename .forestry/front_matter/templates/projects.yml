@@ -19,4 +19,5 @@ fields:
   label: Images
   name: images
   description: Images affichées après le texte
-
+pages:
+- _projects/migration.md
