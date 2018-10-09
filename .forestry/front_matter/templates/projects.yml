@@ -19,5 +19,13 @@ fields:
   label: Images
   name: images
   description: Images affichées après le texte
+- type: textarea
+  name: english
+  label: English text
+  description: Texte en anglais
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 pages:
 - _projects/migration.md
