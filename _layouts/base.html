@@ -42,9 +42,30 @@
         </header>
 
         <nav class="clearfix mrgb++">
+            <h1 class="nav-logo pull-left">
+                <a href="{{ '/' | absolute_url }}">
+                    Iris T.
+                </a>
+            </h1>
+
             <ul class="list-inline pull-right">
-                <li><a href="{{ '/' | absolute_url }}">Pictures</a></li>
-                <li><a href="{{ '/about' | absolute_url }}">About</a></li>
+                <li>
+                    <a href="{{ '/' | absolute_url }}">
+                        <span class="fr">Projets</span>
+                        <span class="en">Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ '/about' | absolute_url }}">
+                        <span class="fr">A propos de moi</span>
+                        <span class="en">About me</span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="list-inline pull-right country-container">
+                <li><a href="#fr" class="country-switch">fr</a></li>
+                <li><a href="#en" class="country-switch">en</a></li>
             </ul>
         </nav>
 

@@ -81,3 +81,26 @@ header,
 footer {
     display: none;
 }
+
+.country-container {
+    margin-right: 3em;
+    &.list-inline li { padding: 0 4px; }
+}
+
+[lang="fr"] {
+    .fr {
+        display: inherit !important;
+    }
+    .en {
+        display: none !important;
+    }
+}
+
+[lang="en"] {
+    .en {
+        display: inherit !important;
+    }
+    .fr {
+        display: none !important;
+    }
+}

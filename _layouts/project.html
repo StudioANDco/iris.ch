@@ -3,9 +3,14 @@ layout: base
 ---
 
 <h2>{{ page.title }}</h2>
-<div>
+<div class="fr">
     {{ content }}
 </div>
+
+<div class="en">
+    {{ page.english | markdownify }}
+</div>
+
 
 <div class="gallery mrgb">
     {% for image in page.images %}

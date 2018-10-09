@@ -1,14 +1,20 @@
 .columns {
     columns: 150px 6;
     column-fill: balance;
-    column-gap: 1em;
+    column-gap: 0;
     column-span: all;
-
-    > * {
-        margin-bottom: 1em;
-    }
 
     img {
         width: 100%;
+    }
+
+    a {
+        display: block;
+        padding: 0.5em;
+        border: 2px solid transparent;
+
+        &:hover {
+            border-color: gray;
+        }
     }
 }
